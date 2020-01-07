@@ -41,15 +41,15 @@
     "tslint-config-egg": "^1.0.0",
     "typescript": "^3.0.0"
   },
-  "lint-staged": {
-    "app/**/*.ts": [
-      "tslint --project . -c tslint.json"
-    ]
-  },
   "husky": {
     "hooks": {
       "pre-commit": "echoe 'start tslint' && lint-staged"
     }
+  },
+  "lint-staged": {
+    "app/**/*.ts": [
+      "tslint --project . -c tslint.json"
+    ]
   },
   "engines": {
     "node": ">=8.9.0"
