@@ -43,7 +43,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "echoe 'start tslint' && lint-staged"
+      "pre-commit": "echo 'start tslint' && lint-staged"
     }
   },
   "lint-staged": {
