@@ -6,7 +6,7 @@ export default class HomeController extends Controller {
     console.log(56) 
     console.log(456)
     console.log(568)
-    console.log(789)
+    console.log(789) 
     ctx.body = await ctx.service.test.sayHi('egg')
   }
 }
