@@ -5,6 +5,7 @@ export default class HomeController extends Controller {
     const { ctx } = this; 
     console.log(56) 
     console.log(456)
+    console.log(568)
     ctx.body = await ctx.service.test.sayHi('egg')
   }
 }
