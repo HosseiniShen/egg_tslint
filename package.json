@@ -42,8 +42,9 @@
     "typescript": "^3.0.0"
   },
   "lint-staged": {
-    "app/**/*.ts": [
-      "tslint --project . -c tslint.json --fix"
+    "*.ts": [
+      "tslint --project . -c tslint.json --fix",
+      "git add ."
     ]
   },
   "husky": {
